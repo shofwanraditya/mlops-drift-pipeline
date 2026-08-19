@@ -28,12 +28,9 @@ This project implements an automated feedback loop:
 ### 1. Data Drift Report (Evidently AI)
 Statistical distribution drift detected on manipulated features (`MedInc`, `AveRooms`, `HouseAge`):
 
-![Data Drift Report](assets/drift_report.png)
-
 ### 2. Model Tracking (MLflow UI)
 Comparison of metrics ($RMSE$ and $R^2$) between the baseline model and the continuous retrained model:
 
-![MLflow Comparison](assets/mlflow_comparison.png)
 
 ## Tech Stack
 
