@@ -1,0 +1,14 @@
+
+venv/
+__pycache__/
+*.pyc
+
+data/buffer.csv
+data/production_batch.csv
+data/drift_report.html
+
+mlruns/
+.trash/
+
+.DS_Store
+Thumbs.db
