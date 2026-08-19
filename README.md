@@ -36,25 +36,6 @@ Comparison of metrics ($RMSE$ and $R^2$) between the baseline model and the cont
 - **API:** FastAPI, Uvicorn
 - **Serialization:** Joblib
 
-## Project Structure
-
-
-mlops-drift-pipeline/
-├── assets/                  # Screenshot bukti visual
-├── data/
-│   ├── reference.csv        # Dataset baseline
-│   └── buffer.csv           # Buffer payload request
-├── models/
-│   └── production_model.joblib
-├── src/
-│   ├── train.py             # Script training baseline
-│   ├── drift_detector.py    # Logika deteksi drift Evidently
-│   ├── serve.py             # FastAPI prediction server
-│   └── pipeline.py          # Orchestrator drift check + retrain
-├── test_simulation.py       # Simulasi data drift
-├── requirements.txt
-├── .gitignore
-└── README.md
 
 HOW TO RUN
 ```text
