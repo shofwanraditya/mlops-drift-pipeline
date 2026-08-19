@@ -11,11 +11,6 @@ This project implements an automated feedback loop:
 2. **Drift Monitoring:** Statistical tests (Wasserstein distance / K-S test) compare live batches against baseline training data.
 3. **Automated Retraining:** If more than 25% of features show significant drift, a retraining script runs automatically, evaluates the new model, and registers the run in MLflow.
 
-[ Client ] ──(POST /predict)──▶ [ FastAPI ] ──▶ [ Log Features ]
-                                                       │
-                                                       ▼
-[ MLflow Registry ] ◀── [ Retrain ] ◀── [ Drift Check (Evidently) ]
-
 
 
 
