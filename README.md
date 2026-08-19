@@ -61,8 +61,8 @@ mlops-drift-pipeline/
 ├── .gitignore
 └── README.md
 
+HOW TO RUN
 ```text
-How to Run
 1. Setup Environment
 
 python -m venv venv
