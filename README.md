@@ -43,7 +43,7 @@ Comparison of metrics ($RMSE$ and $R^2$) between the baseline model and the cont
 
 ## Project Structure
 
-```text
+
 mlops-drift-pipeline/
 ├── assets/                  # Screenshot bukti visual
 ├── data/
@@ -61,7 +61,7 @@ mlops-drift-pipeline/
 ├── .gitignore
 └── README.md
 
-
+```text
 How to Run
 1. Setup Environment
 
